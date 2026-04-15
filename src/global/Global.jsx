@@ -54,14 +54,14 @@ class Global extends React.Component {
                 onlySummer: false,
             },
             selectedCards: [
-                cards.find((c) => c.id === 30028 && c.limit_break === 4),
-                cards.find((c) => c.id === 20023 && c.limit_break === 4),
-                cards.find((c) => c.id === 20020 && c.limit_break === 4),
-                cards.find((c) => c.id === 20009 && c.limit_break === 4),
-                cards.find((c) => c.id === 20003 && c.limit_break === 4),
+                cards.find((c) => c.id === 30078 && c.limit_break === 4),
+                cards.find((c) => c.id === 20027 && c.limit_break === 4),
+                cards.find((c) => c.id === 20041 && c.limit_break === 4),
+                cards.find((c) => c.id === 20012 && c.limit_break === 4),
+                cards.find((c) => c.id === 20015 && c.limit_break === 4),
             ],
             availableCards: cards,
-            label: "Ranking for the 4th Speed card in this deck:"
+            label: "Ranking for the 2nd Speed card in this deck:"
         }
 
         this.onWeightsChanged = this.onWeightsChanged.bind(this);
@@ -118,7 +118,7 @@ class Global extends React.Component {
                 <span className="section-explanation">
                     For more game information, check the <a href="https://docs.google.com/document/d/11X2P7pLuh-k9E7PhRiD20nDX22rNWtCpC1S4IMx_8pQ/edit?usp=sharing">Umamusume Reference</a><br />
                     If you play on JP, use the <Link to="/">JP Tier List</Link><br />
-                    This tier list defaults to the Unity Cup Scenario and doesn't consider skills, only stats.<br />
+                    This tier list defaults to the Trackblazer Scenario and doesn't consider skills, only stats.<br />
                 </span>
                 <Weights
                     onChange={this.onWeightsChanged}
