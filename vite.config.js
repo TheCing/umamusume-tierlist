@@ -11,5 +11,5 @@ export default defineConfig({
     outDir: 'build',
     sourcemap: false,
   },
-  base: '/uma-tiers/',
+  base: '/',
 })
